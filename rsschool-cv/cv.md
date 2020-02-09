@@ -1,5 +1,5 @@
 * 1. First Name, Last Name (real ones) : __Rustem Satimov__ 
-* 2. Contact Info (add several ways to contact you) : __bile(+77762381234) and email(rustemski@gmail.com)__
+* 2. Contact Info (add several ways to contact you) : __mobile(+77762381234) and email(rustemski@gmail.com)__
 * 3. Summary (your goal, wishes, reveal what is important for you, what do you want and why. : __Im interested in javascript environment, especially mini engines used in browsers that represent and provide modern web tech ( i mean, tech itself of javascript combined )__
 * 4. Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always : __Junior is best for searching best practices with or without any circumstances or possibilities around.__ 
 * 5. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.) : __some C#, some Go, .NET, Blender(2.81), manual user basicly.__
