@@ -1,1 +1,352 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Singolo</title>
+</head>
+
+<body  class="layout">
+
+    <!-- Header section -->
+    <header class="layout__header">
+      <div class="layout__container">
+        <div class="header">
+          <div class="header__logo-wrapper">
+            <a href="#home" class="header__logo" type="submit">SINGOLO<span>*</span></a>
+          </div>
+          <nav class="header__nav">
+            <!-- Navagation block -->
+            <ul class="navigation">
+              <li class="navigation__item"><a href="#home" class="navigation__link navigation__link--active">Home</a></li>
+              <li class="navigation__item"><a href="#services" class="navigation__link">Services</a></li>
+              <li class="navigation__item"><a href="#portfolio" class="navigation__link">Portfolio</a></li>
+              <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
+              <li class="navigation__item"><a href="#contact" class="navigation__link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  
+    <!-- Main block -->
+    <main class="layout__main">
+      <div class="layout__container">
+  
+        <!-- Slider section -->
+        <section id="home" class="slider">
+          <button class="slider__button" value="left">
+            <svg class="slider__button-icon" aria-hidden="true">
+              <use xlink:href="#icon__slider-arrow" href="#icon__slider-arrow" />
+            </svg>
+          </button>
+          <div class="slider__images">
+            
+            <!-- Images for slider -->
+            <div class="image">
+              <div class="image__phone image__phone--vert image__phone--yellow">
+                <div class="image__shadow"></div>
+                <div class="image__phone-wrapper">
+                  <img src="./assets/images/phone.png" alt="phone">
+                  <div class="image__screen"></div>
+                </div>
+              </div>
+              <div class="image__phone image__phone--horizont image__phone--blue">
+                <div class="image__shadow image__shadow--horizont"></div>
+                <div class="image__phone-wrapper">
+                  <img src="./assets/images/phone.png" alt="phone">
+                  <div class="image__screen"></div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          <button class="slider__button" value="right">
+            <svg class="slider__button-icon slider__button-icon--right" aria-hidden="true">
+              <use xlink:href="#icon__slider-arrow" href="#icon__slider-arrow" />
+            </svg>
+          </button>
+        </section>
+    </body>
+
+    <body>
+        <!-- Services  -->
+
+  <section id="services" class="services">
+    <div class="wrapper services__wrapper">
+      <h2 class="services__title">Our Services</h2>
+      <p class="services__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
+        non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
+        commodo, tortor mauris condimentum nibh.</p>
+      <div class="layout-3-column">
+        <article class="service">
+          <div class="service__icon">
+            <span class="icon-circle">
+              <span class="ico ico_pen"></span>
+            </span>
+          </div>
+          <div class="service__content">
+            <h3 class="service__title">Custom Design</h3>
+            <p class="service__text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet,
+              vivverra lacus ut, ultrices velit.</p>
+          </div>
+        </article>
+        <article class="service">
+          <div class="service__icon">
+            <span class="icon-circle">
+              <span class="ico ico_bulb"></span>
+            </span>
+          </div>
+          <div class="service__content">
+            <h3 class="service__title">Inovative Ideas</h3>
+            <p class="service__text">Quisque luctus, quam eget molestie commodo, lacus purus curus purus, nec
+              rutrum tellus dolor id lorem.</p>
+          </div>
+        </article>
+        <article class="service">
+          <div class="service__icon">
+            <span class="icon-circle">
+              <span class="ico ico_heart"></span>
+            </span>
+          </div>
+          <div class="service__content">
+            <h3 class="service__title">Love Is The Answer</h3>
+            <p class="service__text">Nulla sed nunc et toror luctus faucibus. Morbi at aliquet turpis, et
+              consequat felis. Quisque condimentum.</p>
+          </div>
+        </article>
+        <article class="service">
+          <div class="service__icon">
+            <span class="icon-circle">
+              <span class="ico ico_phone"></span>
+            </span>
+          </div>
+          <div class="service__content">
+            <h3 class="service__title">Responsive Layout</h3>
+            <p class="service__text">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc
+              ligula. Praesent elit leo.</p>
+          </div>
+        </article>
+        <article class="service">
+          <div class="service__icon">
+            <span class="icon-circle">
+              <span class="ico ico_bubble"></span>
+            </span>
+          </div>
+          <div class="service__content">
+            <h3 class="service__title">24/ 7 Support</h3>
+            <p class="service__text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem
+              erat. Pellentesque egestas venenatis lorem.</p>
+          </div>
+        </article>
+        <article class="service">
+          <div class="service__icon">
+            <span class="icon-circle">
+              <span class="ico ico_star"></span>
+            </span>
+          </div>
+          <div class="service__content">
+            <h3 class="service__title">Feel Like A Star</h3>
+            <p class="service__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce
+              vitae aliquam tellus.
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- singolo 2  -->
+  <section id="portfolio" class="portfolio">
+    <div class="wrapper portfolio__wrapper">
+      <h2 class="portfolio__title">Portfolio</h2>
+      <p class="portfolio__text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget laciana
+        odio sem nec elit.</p>
+      <div class="tags portfolio__tags">
+        <span class="tag tag_bordered">All</span>
+        <span class="tag tag_bordered">Web Design</span>
+        <span class="tag tag_bordered">Graphic Design</span>
+        <span class="tag tag_bordered">Artwork</span>
+      </div>
+      <div class="layout-4-column project-wrapper">
+        <div class="project-row-1">
+          <img src="./assets/images/portfolio/1.jpg" alt="1">
+        </div>
+        <div class="project-row-1">
+          <img src="./assets/images/portfolio/2.jpg" alt="2">
+        </div>
+        <div class="project-row-1">
+          <img src="./assets/images/portfolio/3.jpg" alt="3">
+        </div>
+        <div class="project-row-1">
+          <img src="./assets/images/portfolio/4.jpg" alt="4">
+        </div>
+        <div class="project-row-2">
+          <img src="./assets/images/portfolio/5.jpg" alt="5">
+        </div>
+        <div class="project-row-2">
+          <img src="./assets/images/portfolio/6.jpg" alt="6">
+        </div>
+        <div class="project-row-2">
+          <img src="./assets/images/portfolio/7.jpg" alt="7">
+        </div>
+        <div class="project-row-2">
+          <img src="./assets/images/portfolio/8.jpg" alt="8">
+        </div>
+        <div class="project-row-3">
+          <img src="./assets/images/portfolio/9.jpg" alt="9">
+        </div>
+        <div class="project-row-3">
+          <img src="./assets/images/portfolio/10.jpg" alt="10">
+        </div>
+        <div class="project-row-3">
+          <img src="./assets/images/portfolio/11.jpg" alt="11">
+        </div>
+        <div class="project-row-3">
+          <img src="./assets/images/portfolio/12.jpg" alt="12">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-us">
+    <div class="wrapper about-us__wrapper">
+      <h2 class="about-us__title">About Us</h2>
+      <p class="about-us__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen. Duis mollis, non
+        commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
+        commodo, tortor mauris condimentum nibh.</p>
+      <div class="layout-3-column">
+        <article class="card">
+          <img src="./assets/images/employees/adam.jpg" alt="Adam Jensen">
+          <h3 class="card__title">Adam Jensen</h3>
+          <p class="card__text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum
+            tellus dolor id lorem.</p>
+          <div class="social-contacts">
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_facebook"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_google"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_twitter"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_linkedin"></span>
+            </span>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/images/employees/desmond.jpg" alt="Desmond Miles">
+          <h3 class="card__title">Desmond Miles</h3>
+          <p class="card__text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra
+            lacus ut, ultrices velit.</p>
+          <div class="social-contacts">
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_facebook"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_google"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_twitter"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_linkedin"></span>
+            </span>
+          </div>
+        </article>
+        <article class="card">
+          <img src="./assets/images/employees/scolara.jpg" alt="Scolara Visari">
+          <h3 class="card__title">Scolara Visari</h3>
+          <p class="card__text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat
+            felis. Quisque condimentum.</p>
+          <div class="social-contacts">
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_facebook"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_google"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_twitter"></span>
+            </span>
+            <span class="icon-circle icon-circle_small">
+              <span class="ico ico_linkedin"></span>
+            </span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- singolo 3  -->
+  <section id="contact" class="quote">
+    <div class="wrapper quote__wrapper">
+      <h2 class="quote__title">Get a Quote</h2>
+      <p class="quote__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen. Duis mollis, non
+        commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
+        commodo, tortor mauris condimentum nibh.</p>
+      <div class="quote__content">
+        <form action="#" class="quote__form" method="post">
+          <input class="quote__input" type="text" name="name" placeholder="Name (Required)" required>
+          <input class="quote__input" type="email" name="email" placeholder="Email (Required)" required>
+          <input class="quote__input" type="text" name="subject" placeholder="Subject">
+          <textarea class="quote__textarea" name="description"
+            placeholder="Describe your object in detail..."></textarea>
+          <button class="quote__button" type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+          <h4 class="contact-info__title">Contact Information</h4>
+          <p class="contact-info__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
+            Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctuc faucibus. Morbi
+            at aliquet turpis, et consequat felis.</p>
+          <div class="contacts">
+            <p class="contact">
+              <span class="ico ico_location"></span>
+              <span class="contact__text">Elm St. 14/05 Lost City</span>
+            </p>
+            <p class="contact">
+              <span class="ico ico_contact-phone"></span>
+              <a class="contact__link" href="tel:035283318635">03528 331 86 35</a>
+            </p>
+            <p class="contact">
+              <span class="ico ico_mail"></span>
+              <a class="contact__link" href="mailto:info@singolo.com">info@singolo.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <span class="footer__copyright">&copy; Copyright 2013 &#8729; by PSDchat.com</span>
+      <div class="social-contacts">
+        <span class="icon-circle icon-circle_small">
+          <span class="ico ico_facebook"></span>
+        </span>
+        <span class="icon-circle icon-circle_small">
+          <span class="ico ico_google"></span>
+        </span>
+        <span class="icon-circle icon-circle_small">
+          <span class="ico ico_twitter"></span>
+        </span>
+        <span class="icon-circle icon-circle_small">
+          <span class="ico ico_linkedin"></span>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+<script type="text/javascript" src="./assets/index.js"></script>
+
+</html>
+<svg class="svg__icon" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon__slider-arrow" viewBox="0 0 492 492">
+      <path  fill="var(--icon--slider-arrow)" d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12 C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084 c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864 l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z"/>
+    </symbol>
+  </svg>
