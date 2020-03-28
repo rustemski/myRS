@@ -3,6 +3,25 @@ const ready = (callback) => {
     else document.addEventListener("DOMContentLoaded", callback);
   }
 
+const PORTFOLIO = document.querySelector('.project-wrapper');
+
+function makeRandomImages(event) {
+  const element = event.target;
+
+  if (element.className.includes('tag_bordered') && !element.className.includes('active')) {
+    const imagesList = [...PORTFOLIO.querySelectorAll('.project-image')];
+    let lengthList = imagesList.length;
+
+    while (lengthList > 0) {
+      let randomIndex = randomFunction(0, lengthList - 1);
+
+      PORTFOLIO.append(imagesList[randomIndex]);
+      imagesList.splice(randomIndex, 1);
+      lengthList--;
+    }
+  }
+}
+
 const navigateSetActivity = () => {
   const navigationBlock = document.querySelector('.navigation'),
         navigationItemsList = navigationBlock.querySelectorAll('.navigation__link');
